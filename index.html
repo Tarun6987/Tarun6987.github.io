@@ -1,168 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tarun</title>
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="https://github.com/nairx/portfolio-griet/blob/dff35171a83fed184aa094f7f8f21d79bc02d831/assets/images/banner.jpg"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <header class="header-row">
-        <h1>Tarun</h1>
-        <nav>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarun</title>
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="https://github.com/nairx/portfolio-griet/blob/dff35171a83fed184aa094f7f8f21d79bc02d831/assets/images/banner.jpg"
+  />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
 
-      <section class="row" id="home">
-        <div class="box">
-          <h1>Full Stack Developer</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            neque est nihil ipsum error. Deserunt voluptas explicabo ea eum
-            quasi. Rem nisi molestias quia nesciunt incidunt numquam fugiat
-            perferendis assumenda?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            neque est nihil ipsum error. Deserunt voluptas explicabo ea eum
-            quasi. Rem nisi molestias quia nesciunt incidunt numquam fugiat
-            perferendis assumenda?
-          </p>
-          <div class="button-group">
-            <button class="primary-btn">Button 1</button>
-            <button class="secondary-btn">Button 2</button>
-          </div>
-        </div>
-        <div class="box">
-          <img
-            src="https://picsum.photos/id/2/400/400"
-            alt="Developer placeholder image"
-          />
-        </div>
-      </section>
+  <div class="container-fluid min-vh-100 d-flex flex-column justify-content-center align-items-center">
+    <header class="w-100 bg-dark text-white p-3">
+      <h1 class="text-center">Tarun</h1>
+      <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item"><a href="#home" class="nav-link text-white">Home</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link text-white">Projects</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link text-white">Services</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link text-white">About</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link text-white">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      <section id="projects" class="row">
-        <h1>Projects</h1>
-        <div class="box">
+    <section id="home" class="row justify-content-center text-center my-5">
+      <div class="col-md-6 box bg-primary text-white p-4 rounded shadow-lg hover-effect">
+        <h1 class="display-4">Full Stack Developer</h1>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt neque est nihil ipsum error.
+        </p>
+        <div class="d-flex justify-content-center gap-2">
+          <button class="btn btn-warning">Button 1</button>
+          <button class="btn btn-light">Button 2</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="https://picsum.photos/id/2/400/400" alt="Developer image" class="img-fluid rounded shadow-lg">
+      </div>
+    </section>
+
+    <section id="projects" class="w-100 text-center my-5">
+      <h1>Projects</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-4 box bg-white text-dark p-4 rounded shadow-lg hover-effect">
           <h3>Project 1</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-            aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-            Perspiciatis, ab.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia nobis eligendi.
           </p>
         </div>
-        <div class="box">
+        <div class="col-md-4 box bg-white text-dark p-4 rounded shadow-lg hover-effect">
           <h3>Project 2</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-            aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-            Perspiciatis, ab.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia nobis eligendi.
           </p>
         </div>
-        <div class="box">
+        <div class="col-md-4 box bg-white text-dark p-4 rounded shadow-lg hover-effect">
           <h3>Project 3</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-            aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-            Perspiciatis, ab.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia nobis eligendi.
           </p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="services" class="row">
-        <h1>Services</h1>
-        <div class="box">
+    <section id="services" class="w-100 text-center my-5">
+      <h1>Services</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-4 box bg-info text-white p-4 rounded shadow-lg hover-effect">
           <h3>Web App Development</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-            aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-            Perspiciatis, ab.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia nobis eligendi.
           </p>
         </div>
-        <div class="box">
+        <div class="col-md-4 box bg-info text-white p-4 rounded shadow-lg hover-effect">
           <h3>Mobile App Development</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-            aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-            Perspiciatis, ab.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia nobis eligendi.
           </p>
         </div>
-        <div class="box">
+        <div class="col-md-4 box bg-info text-white p-4 rounded shadow-lg hover-effect">
           <h3>Backend Development</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-            aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-            Perspiciatis, ab.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia nobis eligendi.
           </p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="about" class="row">
-        <h1>About</h1>
-        <h3>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint
-          optio labore a obcaecati. Ullam distinctio corrupti autem. Veritatis
-          ipsa veniam deserunt asperiores nesciunt at provident itaque
-          cupiditate vel dolor.
-        </h3>
-        <h2>Skills</h2>
-        <p>Java, Python, Reactjs</p>
-      </section>
+    <section id="about" class="w-100 text-center my-5">
+      <h1>About</h1>
+      <h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint optio labore a obcaecati.
+      </h3>
+      <h2>Skills</h2>
+      <p>Java, Python, Reactjs</p>
+    </section>
 
-      <section id="contact" class="row">
-        <h1>Contact</h1>
-        <div class="contact-flex">
-          <div class="box">
-            <h3>Contact Form</h3>
-            <form>
-              <input
-                type="text"
-                placeholder="Enter Name"
-                class="input-field"
-              />
-              <input
-                type="email"
-                placeholder="Enter Email"
-                class="input-field"
-              />
-              <textarea
-                rows="5"
-                placeholder="Enter message"
-                class="input-field"
-              ></textarea>
-              <button type="submit" class="primary-btn">Send</button>
-            </form>
-          </div>
-
-          <div class="box">
-            <h3>Your/Company Name</h3>
-            <p><b>Address:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p><b>Email Address:</b> sample@email.com</p>
-            <p><b>Phone Number:</b> +91 343 445 6789</p>
-          </div>
+    <section id="contact" class="w-100 text-center my-5">
+      <h1>Contact</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-4 box bg-light p-4 rounded shadow-lg">
+          <h3>Contact Form</h3>
+          <form>
+            <input type="text" placeholder="Enter Name" class="form-control mb-3">
+            <input type="email" placeholder="Enter Email" class="form-control mb-3">
+            <textarea rows="5" placeholder="Enter message" class="form-control mb-3"></textarea>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
         </div>
-      </section>
+        <div class="col-md-4 box bg-light p-4 rounded shadow-lg">
+          <h3>Your/Company Name</h3>
+          <p><b>Address:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p><b>Email Address:</b> sample@email.com</p>
+          <p><b>Phone Number:</b> +91 343 445 6789</p>
+        </div>
+      </div>
+    </section>
 
-      <footer class="footer">&copy; 2024. All rights reserved.</footer>
-    </div>
-  </body>
+    <footer class="w-100 text-center bg-dark text-white p-3">
+      &copy; 2024. All rights reserved.
+    </footer>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
 </html>
